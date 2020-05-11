@@ -1,0 +1,137 @@
+{
+  "groups": [
+    {
+      "name": "bsapi",
+      "type": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPISpringConfiguration",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPISpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan",
+      "type": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url",
+      "type": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bsapi.apikey",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPISpringConfiguration"
+    },
+    {
+      "name": "bsapi.baseurl",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPISpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.brawler",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.brawler-ranking",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.brawlers",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.club",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.club-members",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.club-ranking",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.default-cache-lifespan",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.default-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.is-default-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.player",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.player-battle-log",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.cache.lifespan.player-ranking",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPICacheSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-brawler-ranking-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-brawler-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-brawlers-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-club-members-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-club-ranking-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-club-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-player-battle-log-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-player-ranking-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    },
+    {
+      "name": "bsapi.url.get-player-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bombie.brawlwatch.brawlstarsapi.spring.BrawlStarsAPIUrlSpringConfiguration"
+    }
+  ],
+  "hints": []
+}
